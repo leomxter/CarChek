@@ -8,7 +8,7 @@ class Car(models.Model):
     )
     make = models.CharField(
         max_length=50,
-        verbose_name="Сделано"
+        verbose_name="Бренд"
 
         )
     model = models.CharField(
